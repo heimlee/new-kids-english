@@ -1,0 +1,22 @@
+.footer {
+  background-color: #8b8b8b;
+  display: flex;
+  height: 82px;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+
+  p {
+    font-size: 20px;
+
+    span {
+      margin-right: 5px;
+    }
+  }
+}

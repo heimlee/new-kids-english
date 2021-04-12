@@ -1,0 +1,29 @@
+.main-wrapper {
+  border-bottom: 1px solid #afafaf;
+  display: flex;
+  height: calc(100vh - 82px);
+  justify-content: center;
+  width: 100%;
+}
+
+.main-container {
+  display: flex;
+  height: auto;
+  width: 1440px;
+}
+
+.main-acrticle {
+  font-size: 44px;
+  font-weight: 600;
+  padding: 100px;
+}
+
+.main-presentation {
+  flex-basis: 120%;
+  padding-top: 50px;
+  width: 100%;
+  
+  img {
+    width: 100%;
+  }
+}

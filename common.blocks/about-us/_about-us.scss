@@ -1,0 +1,25 @@
+.about-us-wrapper {
+  border-bottom: 1px solid rgb(175, 175, 175);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-us-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+}
+
+.about-us-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 170px auto 50px;
+}
+
+.about-us-item {
+  font-size: 20px;
+  font-weight: 500;
+}

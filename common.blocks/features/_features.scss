@@ -1,0 +1,30 @@
+.features-wrapper {
+  border-bottom: 1px solid #afafaf;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.features-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+}
+
+.features-title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 170px auto 50px;
+}
+
+.features-item {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 30px;
+
+  span {
+    margin-right: 10px;
+  }
+}
