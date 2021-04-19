@@ -24,23 +24,20 @@
   display: flex;
   font-size: 20px;
   padding: 20px;
-
-  a {
-    color: #000;
-    cursor: pointer;
-    margin-left: 20px;
-    text-decoration: none;
-  }
-
-  a:first-child {
-    margin-left: 0;
-    margin-right: 20px;
-  }
 }
 
 .header-nav__link {
+  color: #000;
+  cursor: pointer;
+  margin-left: 20px;
   padding: 5px;
+  text-decoration: none;
   user-select: none;
+
+  &:first-child {
+    margin-left: 0;
+    margin-right: 20px;
+  }
 
   &:hover {
     background-color: #8b8b8b;
@@ -50,9 +47,12 @@
 
 .header-nav__logo {
   align-items: center;
+  color: #000;
+  cursor: pointer;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
   user-select: none;
 }
@@ -70,18 +70,17 @@
   display: flex;
   text-decoration: none;
   
-  .instagram-icon {
-    font-size: 30px;
-  }
-
-  p {
-    font-size: 18px;
-    margin-left: 10px;
-    user-select: none;
-
-  }
-  
   &:hover {
     text-decoration: underline;
   }
+}
+
+.instagram-icon {
+  font-size: 30px;
+}
+
+.instagram-title {
+  font-size: 18px;
+  margin-left: 10px;
+  user-select: none;
 }

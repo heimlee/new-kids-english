@@ -39,24 +39,21 @@
   padding: 20px;
 }
 
-.header-nav__links a {
+.header-nav__link {
   color: #000;
   cursor: pointer;
   margin-left: 20px;
-  text-decoration: none;
-}
-
-.header-nav__links a:first-child {
-  margin-left: 0;
-  margin-right: 20px;
-}
-
-.header-nav__link {
   padding: 5px;
+  text-decoration: none;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.header-nav__link:first-child {
+  margin-left: 0;
+  margin-right: 20px;
 }
 
 .header-nav__link:hover {
@@ -68,9 +65,12 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  color: #000;
+  cursor: pointer;
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 1px;
+  text-decoration: none;
   text-transform: uppercase;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -100,21 +100,21 @@
   text-decoration: none;
 }
 
-.instagram .instagram-icon {
+.instagram:hover {
+  text-decoration: underline;
+}
+
+.instagram-icon {
   font-size: 30px;
 }
 
-.instagram p {
+.instagram-title {
   font-size: 18px;
   margin-left: 10px;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-
-.instagram:hover {
-  text-decoration: underline;
 }
 
 .main-wrapper {
@@ -162,14 +162,14 @@
   margin-bottom: 30px;
 }
 
-.contacts div {
+.contact {
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.contacts div p {
+.contact-value {
   margin-left: 10px;
 }
 

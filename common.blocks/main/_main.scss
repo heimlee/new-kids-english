@@ -29,12 +29,13 @@
 .contacts {
   margin-bottom: 30px;
 
-  div {
-    margin-bottom: 20px;
-    display: flex;
+}
 
-    p {
-      margin-left: 10px;
-    }
-  }
+.contact {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.contact-value {
+  margin-left: 10px;
 }
