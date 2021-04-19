@@ -10,13 +10,13 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
   width: 1440px;
 }
 
 .carrers-title {
-  font-size: 30px;
-  letter-spacing: 1px;
-  margin: 170px auto 50px;
+  font-size: 24px;
+  margin: 100px auto 30px;
 }
 
 .vacancy {
@@ -30,9 +30,21 @@
 }
 
 .vacancy-item {
-  font-size: 20px;
+  display: flex;
+  margin-bottom: 10px;
+}
 
-  span {
-    margin-right: 10px;
+.vacancy-item__icon {
+  margin-right: 10px;
+}
+
+@media (min-width: 1120px) {
+  .carrers-title {
+    font-size: 30px;
+    margin: 170px auto 50px;
+  }
+
+  .features-item {
+    font-size: 20px;
   }
 }

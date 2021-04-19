@@ -10,21 +10,39 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
   width: 1440px;
 }
 
 .features-title {
-  font-size: 30px;
-  letter-spacing: 1px;
-  margin: 170px auto 50px;
+  font-size: 24px;
+  margin: 100px auto 30px;
+}
+
+.features-items {
+  display: flex;
+  flex-direction: column;
 }
 
 .features-item {
-  font-size: 20px;
+  display: flex;
   font-weight: 500;
   margin-bottom: 30px;
+  width: 100%;
+}
 
-  span {
-    margin-right: 10px;
+.features-item__icon {
+  margin-right: 15px;
+  width: 15px;
+}
+
+@media (min-width: 1120px) {
+  .features-title {
+    font-size: 30px;
+    margin: 170px auto 50px;
+  }
+
+  .features-item {
+    font-size: 20px;
   }
 }

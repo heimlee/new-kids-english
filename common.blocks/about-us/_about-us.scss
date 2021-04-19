@@ -10,16 +10,26 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: 0 30px;
   width: 1440px;
 }
 
 .about-us-title {
-  font-size: 30px;
-  letter-spacing: 1px;
-  margin: 170px auto 50px;
+  font-size: 24px;
+  margin: 100px auto 30px;
 }
 
 .about-us-item {
-  font-size: 20px;
   font-weight: 500;
+}
+
+@media (min-width: 1120px) {
+  .about-us-title {
+    font-size: 30px;
+    margin: 170px auto 50px;
+  }
+
+  .about-us-item {
+    font-size: 20px;
+  }
 }

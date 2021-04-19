@@ -7,14 +7,21 @@
   <title>New Kids English</title>
   <link rel="stylesheet" href="common.blocks/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/384fd8fbf2.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">  <script src="https://kit.fontawesome.com/384fd8fbf2.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
     <header class="header">
       <div class="header-nav">
         <div class="header-nav__links">
+          <button id="modal-button" class="modal-button">
+            <span id="modal-open-button" class="modal-button__icon menu-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+            <span id="modal-close-button" class="modal-button__icon close-icon">
+              <i class="fas fa-times"></i>
+            </span>
+          </button>
           <a href="#" class="header-nav__logo" title="Home">New Kids English</a>
           <a href="#features" class="header-nav__link" title="What do we offer?">Our Features</a>
           <a href="#pricing" class="header-nav__link" title="Price">Pricing</a>
@@ -32,9 +39,22 @@
       </div>
     </header>
 
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <a href="#" class="modal-menu-link" title="Home">Home</a>
+        <a href="#features" class="modal-menu-link" title="What do we offer?">Our Features</a>
+        <a href="#pricing" class="modal-menu-link" title="Price">Pricing</a>
+        <a href="#about-us" class="modal-menu-link" title="About Us">About Us</a>
+        <a href="#carrers" class="modal-menu-link" title="Carrers at New Kids English">Carrers</a>
+      </div>
+    </div>
+
     <main class="main-wrapper">
       <div class="main-container">
-        <div class="main-acrticle">Welcome to New Kids English Training Center</div>
+        <div class="main-acrticle">
+          <div class="main-title">Welcome to New Kids English Training Center</div>
+          <p class="main-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus vel inventore quis excepturi molestiae fugit. Maiores quidem molestiae dignissimos minus, alias odio officiis provident autem? Rerum nemo labore magni fuga?</p>
+        </div>
         <div class="main-presentation">
           <div class="contacts">
             <div class="contact">
@@ -62,10 +82,32 @@
     <section id="features" class="features-wrapper">
       <div class="features-container">
         <h1 class="features-title">What do we offer?</h1>
-        <p class="features-item"><span>+</span>English for children from 2 years</p>
-        <p class="features-item"><span>+</span>100% correct pronunciation</p>
-        <p class="features-item"><span>+</span>Lessons for adults</p>
-        <p class="features-item"><span>+</span>Skype conference with USA</p>
+        <div class="features-items">
+          <div class="features-item">
+            <span class="features-item__icon">
+              <i class="fas fa-child"></i>
+            </span>
+            <p>English for children from 2 years</p>
+          </div>
+          <div class="features-item">
+            <span class="features-item__icon">
+              <i class="far fa-surprise"></i>
+            </span>
+            <p>100% correct pronunciation</p>
+          </div>
+          <div class="features-item">
+            <span class="features-item__icon">
+              <i class="fas fa-user-graduate"></i>
+            </span>
+            <p>Lessons for adults</p>
+          </div>
+          <div class="features-item">
+            <span class="features-item__icon">
+              <i class="fas fa-flag-usa"></i>
+            </span>
+            <p>Skype conference with USA</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -88,17 +130,54 @@
         <h1 class="carrers-title">Carrers at New Kids English</h1>
         <div class="vacancy">
           <h3 class="vacancy-type">Teachers</h3>
-          <p class="vacancy-item"><span>*</span>English teacher for children</p>
-          <p class="vacancy-item"><span>*</span>English teacher for adults</p>
+          <div class="vacancy-item">
+            <span class="vacancy-item__icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </span>
+            <p></p> English teacher for children
+          </div>
+          <div class="vacancy-item">
+            <span class="vacancy-item__icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </span>
+            <p>English teacher for adults</p>
+          </div>
         </div>
       </div>
     </section>
     
     <footer class="footer">
       <div class="footer-container">
-        <p><span>©</span>2021</p>
+        <div class="footer-contacts">
+          <div class="footer-contact">
+            <span class="footer-contact__icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <p>Teatralna St, 18, Kovel'</p>
+          </div>
+          <div class="footer-contact">
+            <span class="footer-contact__icon">
+              <i class="fas fa-phone-alt"></i>
+            </span>
+            <p>+38(067)-10-01-580</p>
+          </div>
+          <div class="footer-contact">
+            <span class="footer-contact__icon">
+              <i class="far fa-envelope"></i>
+            </span>
+            <p>newkidsenglish@gmail.com</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <span class="copyright-icon">
+            <i class="far fa-copyright"></i>
+          </span>
+          <p>2021</p>
+        </div>
       </div>
     </footer>
   </div>
+
+  <script src="/common.blocks/header/modal/modal.js"></script>
 </body>
 </html>

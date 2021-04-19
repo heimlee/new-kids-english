@@ -1,3 +1,5 @@
+@import 'modal/_modal';
+
 .header {
   background-color: rgba(247, 247, 244, 0.91);
   bottom: 0;
@@ -32,7 +34,9 @@
   margin-left: 20px;
   padding: 5px;
   text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
   user-select: none;
+  display: none;
 
   &:first-child {
     margin-left: 0;
@@ -49,7 +53,7 @@
   align-items: center;
   color: #000;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
@@ -80,7 +84,24 @@
 }
 
 .instagram-title {
+  display: none;
   font-size: 18px;
   margin-left: 10px;
   user-select: none;
+}
+
+@media (min-width: 500px) {
+  .header-nav__logo {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1120px) {
+  .header-nav__link {
+    display: flex;
+  }
+
+  .instagram-title {
+    display: inline;
+  }
 }
