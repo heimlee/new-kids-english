@@ -11,3 +11,4 @@ The website for New Kids English Training Center is located in Kovel' (Volyn Obl
 - HTML
 - SCSS/CSS
 - JS (ES6)
+- Fully Responsive

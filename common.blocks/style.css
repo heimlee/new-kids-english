@@ -4,7 +4,7 @@
   cursor: pointer;
   margin-right: 30px;
   outline: none;
-  width: 30px;
+  width: 20px;
 }
 
 .modal-button__icon {
@@ -166,6 +166,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 10px;
   padding: 10px;
 }
 
@@ -243,7 +244,7 @@
 .main-acrticle {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-  padding: 30px 30px 0 30px;
+  padding: 20px;
 }
 
 .main-title {
@@ -252,7 +253,7 @@
 }
 
 .main-text {
-  margin-top: 30px;
+  margin: 30px auto 0;
   font-weight: 500;
 }
 
@@ -267,7 +268,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
@@ -518,6 +519,8 @@
 .carrers-title {
   font-size: 24px;
   margin: 100px auto 30px;
+  padding: 0 20px;
+  text-align: center;
 }
 
 .vacancy {
@@ -551,6 +554,7 @@
   .carrers-title {
     font-size: 30px;
     margin: 170px auto 50px;
+    text-align: left;
   }
   .features-item {
     font-size: 20px;
