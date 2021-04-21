@@ -55,9 +55,11 @@
 .modal-menu-link {
   color: #fff;
   cursor: pointer;
+  font-size: 18px;
   font-weight: 700;
   padding-top: 30px;
   text-decoration: none;
+  text-transform: uppercase;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
