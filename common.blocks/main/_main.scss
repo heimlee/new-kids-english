@@ -1,5 +1,5 @@
 .main-wrapper {
-  border-bottom: 1px solid #afafaf;
+  border-bottom: 1px solid transparent;
   display: flex;
   justify-content: center;
   height: 100%;
@@ -52,6 +52,7 @@
 
 @media (min-width: 1120px) {
   .main-wrapper {
+    border-bottom: 1px solid #afafaf;
     height: calc(100vh - 82px);
   }
 

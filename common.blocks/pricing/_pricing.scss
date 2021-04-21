@@ -1,8 +1,8 @@
 .pricing-wrapper {
-  border-bottom: 1px solid #afafaf;
+  border-bottom: 1px solid transparent;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -10,7 +10,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0 30px;
+  padding-bottom: 50px;
   width: 1440px;
 }
 
@@ -24,6 +24,15 @@
 }
 
 @media (min-width: 1120px) {
+  .pricing-wrapper {
+    border-bottom: 1px solid #afafaf;
+    height: 100vh;
+  }
+
+  .pricing-container {
+    padding: 0 30px;
+  }
+
   .pricing-title {
     font-size: 30px;
     margin: 170px auto 50px;
