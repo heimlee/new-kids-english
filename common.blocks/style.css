@@ -218,7 +218,6 @@
 }
 
 .main-wrapper {
-  border-bottom: 1px solid transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,10 +289,6 @@
 }
 
 @media (min-width: 1120px) {
-  .main-wrapper {
-    border-bottom: 1px solid #afafaf;
-    height: calc(100vh - 82px);
-  }
   .main-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -312,7 +307,6 @@
 }
 
 .features-wrapper {
-  border-bottom: 1px solid transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -368,10 +362,6 @@
 }
 
 @media (min-width: 1120px) {
-  .features-wrapper {
-    border-bottom: 1px solid #afafaf;
-    height: 100vh;
-  }
   .features-container {
     padding: 0 30px;
   }
@@ -385,7 +375,6 @@
 }
 
 .pricing-wrapper {
-  border-bottom: 1px solid transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -422,27 +411,26 @@
 
 .single-package {
   border-bottom: 2px solid #666;
-  padding: 20px 0;
   height: auto;
+  padding: 20px 0;
   min-height: 90px;
 }
 
 .single-package-title {
-  text-transform: uppercase;
-  margin-bottom: 0;
-  line-height: 30px;
   font-size: 18px;
-  letter-spacing: 1px;
   font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-bottom: 0;
 }
 
 .single-package-price {
-  font-size: 15px;
-  line-height: 20px;
-  letter-spacing: 1px;
-  margin-bottom: 10px;
   color: #ff0000;
+  font-size: 15px;
   font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .total-price {
@@ -451,15 +439,12 @@
 
 .package-short-description {
   font-size: 16px;
+  font-weight: 400;
   line-height: 20px;
   margin-bottom: 10px;
-  font-weight: 400;
 }
 
 @media (min-width: 1120px) {
-  .pricing-wrapper {
-    border-bottom: 1px solid #afafaf;
-  }
   .pricing-container {
     padding: 0 30px;
   }
@@ -484,7 +469,6 @@
 }
 
 .about-us-wrapper {
-  border-bottom: 1px solid transparent;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,10 +504,6 @@
 }
 
 @media (min-width: 1120px) {
-  .about-us-wrapper {
-    border-bottom: 1px solid #afafaf;
-    height: 100vh;
-  }
   .about-us-container {
     padding: 0 30px;
   }
@@ -591,9 +571,6 @@
 }
 
 @media (min-width: 1120px) {
-  .carrers-wrapper {
-    height: 100vh;
-  }
   .carrers-container {
     padding: 0 30px;
   }
