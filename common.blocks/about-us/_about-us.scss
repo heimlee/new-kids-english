@@ -18,8 +18,37 @@
   margin: 100px auto 30px;
 }
 
-.about-us-item {
-  font-weight: 500;
+.about-us-row {
+  column-gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(auto, 100%);
+  row-gap: 15px;
+}
+
+.single-teacher-container {
+  display: block;
+}
+
+.single-teacher-wrapper {
+  position: relative;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+}
+
+.single-teacher-title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 900;
+  left: 5%;
+  letter-spacing: 1px;
+  position: absolute;
+  right: 5%;
+  text-align: center;
+  top: 85%;
 }
 
 @media (min-width: 1120px) {
@@ -30,9 +59,5 @@
   .about-us-title {
     font-size: 30px;
     margin: 170px auto 50px;
-  }
-
-  .about-us-item {
-    font-size: 20px;
   }
 }
