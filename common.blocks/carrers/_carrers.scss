@@ -1,7 +1,6 @@
 .carrers-wrapper {
-  border-bottom: 1px solid #afafaf;
   display: flex;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   width: 100%;
 }
@@ -10,13 +9,26 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0 30px;
+  margin-bottom: 150px;
+  padding-bottom: 50px;
   width: 1440px;
 }
 
 .carrers-title {
   font-size: 24px;
   margin: 100px auto 30px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.carrers-contact {
+  padding: 0 20px;
+}
+
+.carrers-text {
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
 .vacancy {
@@ -24,7 +36,7 @@
 }
 
 .vacancy-type {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -39,9 +51,14 @@
 }
 
 @media (min-width: 1120px) {
+  .carrers-container {
+    padding: 0 30px;
+  }
+
   .carrers-title {
     font-size: 30px;
     margin: 170px auto 50px;
+    text-align: left;
   }
 
   .features-item {

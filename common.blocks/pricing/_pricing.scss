@@ -1,8 +1,7 @@
 .pricing-wrapper {
-  border-bottom: 1px solid #afafaf;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -10,7 +9,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0 30px;
+  padding-bottom: 50px;
   width: 1440px;
 }
 
@@ -19,17 +18,71 @@
   margin: 100px auto 30px;
 }
 
-.pricing-item {
-  font-weight: 500;
+.pricing-rows {
+  padding: 0 20px;
+}
+
+.single-package {
+  border-bottom: 2px solid #666;
+  height: auto;
+  padding: 20px 0;
+  min-height: 90px;
+}
+
+.single-package-title {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.single-package-price {
+  color: #ff0000;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.total-price {
+  color: #666;
+}
+
+.package-short-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
 }
 
 @media (min-width: 1120px) {
+  .pricing-container {
+    padding: 0 30px;
+  }
+
   .pricing-title {
     font-size: 30px;
     margin: 170px auto 50px;
   }
 
-  .pricing-item {
+  .single-package {
+    padding: 40px 30px 20px 200px;
+  }
+
+  .single-package-title {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+
+  .single-package-price {
     font-size: 20px;
+    margin: 0 0 10px;
+  }
+
+  .package-short-description {
+    font-size: 18px;
+    margin: 0;
   }
 }

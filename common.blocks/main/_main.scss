@@ -1,5 +1,4 @@
 .main-wrapper {
-  border-bottom: 1px solid #afafaf;
   display: flex;
   justify-content: center;
   height: 100%;
@@ -15,7 +14,7 @@
 
 .main-acrticle {
   flex-basis: 100%;
-  padding: 30px 30px 0 30px;
+  padding: 20px;
 }
 
 .main-title {
@@ -24,17 +23,17 @@
 }
 
 .main-text {
-  margin-top: 30px;
+  margin: 30px auto 0;
   font-weight: 500;
 }
 
 .main-presentation {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  padding: 50px;
-  width: 100%;
   flex-basis: 100%;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
 }
 
 .contacts {
@@ -51,10 +50,6 @@
 }
 
 @media (min-width: 1120px) {
-  .main-wrapper {
-    height: calc(100vh - 82px);
-  }
-
   .main-container {
     flex-direction: row;
   }

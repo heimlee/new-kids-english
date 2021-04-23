@@ -1,7 +1,6 @@
 .features-wrapper {
-  border-bottom: 1px solid #afafaf;
   display: flex;
-  height: 100vh;
+  height: 100%;
   justify-content: center;
   width: 100%;
 }
@@ -10,7 +9,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  padding: 0 30px;
+  padding-bottom: 50px;
   width: 1440px;
 }
 
@@ -37,6 +36,10 @@
 }
 
 @media (min-width: 1120px) {
+  .features-container {
+    padding: 0 30px;
+  }
+
   .features-title {
     font-size: 30px;
     margin: 170px auto 50px;
