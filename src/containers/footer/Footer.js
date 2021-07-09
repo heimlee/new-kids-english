@@ -3,6 +3,9 @@ import React from 'react';
 import './footer.scss';
 
 export const Footer = () => {
+  let d = new Date();
+  let year = d.getFullYear();
+
   return(
     <footer className="footer">
       <div className="footer-container">
@@ -30,7 +33,7 @@ export const Footer = () => {
           <span className="copyright-icon">
             <i className="far fa-copyright"></i>
           </span>
-          <p>2021</p>
+          <p>{year}</p>
         </div>
       </div>
     </footer>
