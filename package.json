@@ -10,6 +10,7 @@
     "npm-check-updates": "^11.8.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-modal": "^3.14.3",
     "react-scripts": "4.0.3",
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
