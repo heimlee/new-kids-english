@@ -5,6 +5,7 @@ import { Main } from './containers/main/Main';
 import { Features } from './containers/features/Features';
 import { Pricing } from './containers/pricing/Pricing';
 import { AboutUs } from './containers/aboutUs/AboutUs';
+import { Carrers } from './containers/carrers/Carrers';
 
 import './App.scss';
 
@@ -16,6 +17,7 @@ function App() {
       <Features />
       <Pricing />
       <AboutUs />
+      <Carrers />
     </div>
   );
 }
