@@ -6,6 +6,7 @@ import { Features } from './containers/features/Features';
 import { Pricing } from './containers/pricing/Pricing';
 import { AboutUs } from './containers/aboutUs/AboutUs';
 import { Carrers } from './containers/carrers/Carrers';
+import { Footer } from './containers/footer/Footer';
 
 import './App.scss';
 
@@ -18,6 +19,7 @@ function App() {
       <Pricing />
       <AboutUs />
       <Carrers />
+      <Footer />
     </div>
   );
 }
