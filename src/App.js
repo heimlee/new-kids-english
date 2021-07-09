@@ -4,6 +4,7 @@ import { Header } from './containers/header/Header';
 import { Main } from './containers/main/Main';
 import { Features } from './containers/features/Features';
 import { Pricing } from './containers/pricing/Pricing';
+import { AboutUs } from './containers/aboutUs/AboutUs';
 
 import './App.scss';
 
@@ -14,6 +15,7 @@ function App() {
       <Main />
       <Features />
       <Pricing />
+      <AboutUs />
     </div>
   );
 }
