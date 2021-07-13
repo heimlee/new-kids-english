@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Modal } from './components/modal/Modal';
+import { ModalWindow } from './components/modalWindow/ModalWindow';
 import { HeaderSocial } from './components/headerSocial/HeaderSocial';
 
 import './header.scss';
@@ -10,7 +10,7 @@ export const Header = () => {
     <header className="header">
       <div className="header-nav">
         <div className="header-nav__links">
-          <Modal />
+          <ModalWindow />
           <a href="/#" className="header-nav__logo" title="Home">New Kids English</a>
           <a href="/#features" className="header-nav__link" title="What do we offer?">Our Features</a>
           <a href="/#pricing" className="header-nav__link" title="Price">Pricing</a>
