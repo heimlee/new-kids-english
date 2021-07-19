@@ -1,0 +1,36 @@
+.modal-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+  outline: none;
+  width: 20px;
+}
+
+.modal-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+}
+
+.modal-menu-link {
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+@media (min-width: 1120px) {
+  .modal-button {
+    display: none;
+  }
+}
