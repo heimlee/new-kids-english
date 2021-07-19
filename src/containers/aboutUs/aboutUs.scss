@@ -14,7 +14,7 @@
 }
 
 .about-us-title {
-  font-size: 24px;
+  font-size: 22px;
   margin: 100px auto 30px;
 }
 
@@ -41,14 +41,16 @@
 
 .single-teacher-title {
   color: #fff;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 900;
   left: 5%;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   position: absolute;
   right: 5%;
   text-align: center;
+  text-shadow: 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000;
   top: 85%;
+  text-transform: uppercase;
 }
 
 @media (min-width: 800px) {
