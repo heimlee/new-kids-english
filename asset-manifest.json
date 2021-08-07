@@ -5,11 +5,11 @@
     "main.js.map": "/new-kids-english/static/js/main.b0dc2a3a.chunk.js.map",
     "runtime-main.js": "/new-kids-english/static/js/runtime-main.26561318.js",
     "runtime-main.js.map": "/new-kids-english/static/js/runtime-main.26561318.js.map",
-    "static/js/2.9c3a0ef9.chunk.js": "/new-kids-english/static/js/2.9c3a0ef9.chunk.js",
-    "static/js/2.9c3a0ef9.chunk.js.map": "/new-kids-english/static/js/2.9c3a0ef9.chunk.js.map",
+    "static/js/2.48ac2835.chunk.js": "/new-kids-english/static/js/2.48ac2835.chunk.js",
+    "static/js/2.48ac2835.chunk.js.map": "/new-kids-english/static/js/2.48ac2835.chunk.js.map",
     "index.html": "/new-kids-english/index.html",
     "static/css/main.7c5c019f.chunk.css.map": "/new-kids-english/static/css/main.7c5c019f.chunk.css.map",
-    "static/js/2.9c3a0ef9.chunk.js.LICENSE.txt": "/new-kids-english/static/js/2.9c3a0ef9.chunk.js.LICENSE.txt",
+    "static/js/2.48ac2835.chunk.js.LICENSE.txt": "/new-kids-english/static/js/2.48ac2835.chunk.js.LICENSE.txt",
     "static/media/anna.954c1cb3.jpg": "/new-kids-english/static/media/anna.954c1cb3.jpg",
     "static/media/dmitriy.5450bd36.jpg": "/new-kids-english/static/media/dmitriy.5450bd36.jpg",
     "static/media/irina.25a4f106.jpg": "/new-kids-english/static/media/irina.25a4f106.jpg",
@@ -19,7 +19,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.26561318.js",
-    "static/js/2.9c3a0ef9.chunk.js",
+    "static/js/2.48ac2835.chunk.js",
     "static/css/main.7c5c019f.chunk.css",
     "static/js/main.b0dc2a3a.chunk.js"
   ]
